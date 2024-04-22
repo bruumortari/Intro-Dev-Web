@@ -12,14 +12,14 @@ export function Header({ onOpenUserModal }: HeaderProps) {
     return (
         <Container>
             <Content>
-                <button className='minhaConta' type="button" onClick={onOpenUserModal}>
-                    Minha conta
-                </button>
                 <button className='recs' type="button">
                     Recomendações
                 </button>
                 <button className='minhaEstante' type="button">
                     Minha estante
+                </button>
+                <button className='minhaConta' type="button" onClick={onOpenUserModal}>
+                    Minha conta
                 </button>
                 </Content>
                 <Content2>
